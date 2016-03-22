@@ -1,0 +1,3 @@
+<workflows>
+   <workflow name="work" type="resource" location="osworkflow/work.xml"/>
+</workflows>
