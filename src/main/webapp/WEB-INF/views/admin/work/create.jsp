@@ -60,7 +60,7 @@
 										</td>
 									</tr>
 									<tr>
-										<td class='lable'>保修日期</td>
+										<td class='lable'>报修日期</td>
 										<td><div class="input-append date">
 											 <input id="createDate" name="work.createDate" type="text" readonly="readonly" class="form_datetime">
 											 <span class="add-on"><i class="icon-th"></i></span>
@@ -89,6 +89,15 @@
 											</select>
 										</td>
 									<tr>
+									<tr>
+									<td class='lable'>预约日期</td>
+										<td colspan="3" ><div class="input-append date">
+											 <input id="createDate" name="work.createDate" type="text" readonly="readonly" class="form_datetime">
+											 <span class="add-on"><i class="icon-th"></i></span>
+										    </div>
+										    如不选，代表您同意随时上门服务
+										  </td>
+								     </tr>
 									<tr>
 										<td class='lable'>维修单标题：</td>
 										<td colspan="3" >

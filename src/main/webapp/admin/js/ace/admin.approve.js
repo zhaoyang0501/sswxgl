@@ -6,7 +6,14 @@ jQuery.approve= {
 		if (this.toApprove == null) {
 			this.toApprove = $('#table_toapprove').dataTable(
 					{
-						"sDom" : "<'row-fluid'<'span6'l>r>t<'row-fluid'<'span6'i><'span6'p>>",
+						"sDom" : "<'row-fluid'<'span5'l><'span4'r><'span2'T>t<'row-fluid'<'span6'i><'span6'p>>",
+						 "oTableTools": {
+				        	 "aButtons": [
+				             "copy",
+				             "xls"
+				             ],
+				            "sSwfPath": "media/swf/copy_csv_xls_pdf.swf"
+				        },
 						"sPaginationType" : "bootstrap",
 						"oLanguage" : {
 							"sLengthMenu" : "每页显示 _MENU_ 条记录",
@@ -120,7 +127,14 @@ jQuery.approve= {
 		if (this.approved == null) {
 			this.approved = $('#table_toapprove').dataTable(
 					{
-						"sDom" : "<'row-fluid'<'span6'l>r>t<'row-fluid'<'span6'i><'span6'p>>",
+						"sDom" : "<'row-fluid'<'span5'l><'span4'r><'span2'T>t<'row-fluid'<'span6'i><'span6'p>>",
+						 "oTableTools": {
+				        	 "aButtons": [
+				             "copy",
+				             "xls"
+				             ],
+				            "sSwfPath": "media/swf/copy_csv_xls_pdf.swf"
+				        },
 						"sPaginationType" : "bootstrap",
 						"oLanguage" : {
 							"sLengthMenu" : "每页显示 _MENU_ 条记录",

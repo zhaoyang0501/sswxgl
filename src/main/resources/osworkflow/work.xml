@@ -21,40 +21,13 @@
 						</conditions>
 					</restrict-to>
 					<results>
-						<unconditional-result id="111" old-status="Finished" status="Queued" step="2" owner="${nexter}" />
+						<unconditional-result id="111" old-status="Finished" status="Queued" step="3" owner="${nexter}" />
 					</results>
 				</action>
 			</actions>
 		</step>
 
-		<step id="2" name="维修单审批">
-			<actions>
-				<action id="21" name="审批通过">
-					<restrict-to>
-						<conditions type="AND">
-							<condition name="allow.owner.only" type="class">
-								<arg name="class.name">com.opensymphony.workflow.util.IsUserOwnerCondition</arg>
-							</condition>
-						</conditions>
-					</restrict-to>
-					<results>
-							<unconditional-result id="223" old-status="Finished" status="Queued" step="3" owner="${manager}" />
-					</results>
-				</action>
-				<action id="22" name="打回">
-					<restrict-to>
-						<conditions type="AND">
-							<condition name="allow.owner.only" type="class">
-								<arg name="class.name">com.opensymphony.workflow.util.IsUserOwnerCondition</arg>
-							</condition>
-						</conditions>
-					</restrict-to>
-					<results>
-						<unconditional-result id="96" old-status="Finished" status="Queued" step="1" owner="${creater}" />
-					</results>
-				</action>
-			</actions>
-		</step>
+		
 		
 		
 		<step id="3" name="维修单分配">

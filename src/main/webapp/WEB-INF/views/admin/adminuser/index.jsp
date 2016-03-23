@@ -49,11 +49,12 @@
 								<input type="text" id="realname_" >
 								<a onclick="$.adminAdminuser.initSearchDataTable()"
 									class="btn btn-info" data-loading-text="正在加载..."><i class="icon-search"></i>查询</a>
+								<a class="btn btn-success" style=" " onclick="$.adminAdminuser.showaddModal()"><i class="icon-plus"></i> 新增</a>
+							
 							</div>
 							<div class="widget-container">
 								
-									<a class="btn btn-success" style="float: right; margin: 5px;" onclick="$.adminAdminuser.showaddModal()"><i class="icon-plus"></i> 新增</a>
-								<table class="responsive table table-striped table-bordered"
+									<table class="responsive table table-striped table-bordered"
 									id="dt_adminuser_view">
 									<thead>
 										<tr>

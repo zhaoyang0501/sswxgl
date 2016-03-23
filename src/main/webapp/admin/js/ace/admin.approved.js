@@ -7,6 +7,7 @@ jQuery.approve= {
 			this.toApprove = $('#table_toapprove').dataTable(
 					{
 						"sDom" : "<'row-fluid'<'span6'l>r>t<'row-fluid'<'span6'i><'span6'p>>",
+						
 						"sPaginationType" : "bootstrap",
 						"oLanguage" : {
 							"sLengthMenu" : "每页显示 _MENU_ 条记录",

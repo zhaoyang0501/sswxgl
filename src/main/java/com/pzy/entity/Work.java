@@ -43,6 +43,15 @@ public class Work {
 	private String result;
 	
 	private String checkresult;
+	
+	private Date fixDate;
+	
+	public Date getFixDate() {
+		return fixDate;
+	}
+	public void setFixDate(Date fixDate) {
+		this.fixDate = fixDate;
+	}
 	public String getResult() {
 		return result;
 	}

@@ -34,7 +34,7 @@
 						<li><a href="${pageContext.request.contextPath}/admin/workuser/index"><i class="icon-upload"></i>维修工管理</a></li>
 						<li><a href="${pageContext.request.contextPath}/admin/leaderuser/index"><i class="icon-upload"></i>宿舍管理员维护</a></li>
 				  </c:if>
-					<li><a href="${pageContext.request.contextPath}/admin/toapprove/index"><i class="icon-upload"></i>我的代办</a></li>
+					<li><a href="${pageContext.request.contextPath}/admin/toapprove/index"><i class="icon-upload"></i>我的待办</a></li>
 					<li><a href="${pageContext.request.contextPath}/admin/approved/index"><i class="icon-upload"></i>我的已办</a></li>
 					<li><a href="${pageContext.request.contextPath}/admin/work/create"><i class="icon-upload"></i>维修单提交</a></li>
 		
