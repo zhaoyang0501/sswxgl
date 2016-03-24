@@ -11,7 +11,11 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.pzy.entity.osworkflow.Wfentry;
-
+/***
+ * 维修单
+ * @author Administrator
+ *
+ */
 @Entity
 @Table(name = "t_work")
 public class Work {

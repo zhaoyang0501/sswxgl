@@ -92,7 +92,7 @@
 									<tr>
 									<td class='lable'>预约日期</td>
 										<td colspan="3" ><div class="input-append date">
-											 <input id="createDate" name="work.createDate" type="text" readonly="readonly" class="form_datetime">
+											 <input id="createDate" name="work.fixDate" type="text" readonly="readonly" class="form_datetime">
 											 <span class="add-on"><i class="icon-th"></i></span>
 										    </div>
 										    如不选，代表您同意随时上门服务

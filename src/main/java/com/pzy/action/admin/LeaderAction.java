@@ -20,7 +20,7 @@ import com.pzy.entity.Log;
 import com.pzy.service.AdminUserService;
 import com.pzy.service.LogService;
 /***
- * 
+ * 宿舍管理员管理
  * @author 263608237@qq.com
  *
  */

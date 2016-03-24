@@ -10,9 +10,6 @@ public interface ImsConstants {
 			@SuppressWarnings("serial")
 			final static Map<String,String> WORKFLOWNAME_MAP = new HashMap<String,String>() {
 				{    
-				    put(RUNLOG, "运行日志");    
-				    put(FIXLOG, "维护日志"); 
-				    put(BUG, "缺陷单");  
 				    put(WORK, "工作单");  
 				}};
 		}

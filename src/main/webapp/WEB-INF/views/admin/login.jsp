@@ -153,7 +153,9 @@ body {
 				<option  value="维修工">宿管员</option>
 				<option  value="超级管理员">超级管理员</option>
 			</select>
+     			 <input type="checkbox" style="margin-left: 20px;"> 记住我
 			</div>
+			
 			<input class="btn btn-lg btn-primary btn-block" name="submit" accesskey="l" value="登录" tabindex="4" type="submit" />
 		</form>
 	</div>

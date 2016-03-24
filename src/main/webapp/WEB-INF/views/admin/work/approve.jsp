@@ -83,7 +83,7 @@
 											</td>
 										</tr>
 									<tr>
-										<td class='lable'>保修日期</td>
+										<td class='lable'>报修日期</td>
 										<td>${work.createDate }
 										  </td>
 										<td class='lable'>涉及设备：</td>
@@ -94,11 +94,17 @@
 									<tr>
 										<td class='lable'>宿舍：</td>
 										<td >
-											
+											${work.creater.job}
 										</td>
 										<td class='lable'>紧急程度：</td>
 										<td >
 											${work.state}
+										</td>
+									<tr>
+									<tr>
+										<td class='lable' >预约日期：</td>
+										<td colspan="3">
+											${work.fixDate}
 										</td>
 									<tr>
 									<tr>
